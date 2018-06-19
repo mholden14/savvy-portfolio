@@ -1,0 +1,33 @@
+/* class = .name, ID = #name, element = element*/
+
+#header {
+    background-color: blueviolet;
+}
+#navigation 
+{margin: 10px;
+padding: 10px;
+background-color: rgb(255, 83, 109)
+
+}
+#navigation > ul{
+margin: 0;   
+    list-style: none;
+
+}
+
+#navigation> ul >li {
+    max-resolution: 10px;
+    display: inline;
+}
+
+#header {
+    padding: 10px;
+    background-color: lightblue;
+
+}
+
+#content {
+    margin: 10px;
+    padding: 10px; 
+    background-color: aquamarine;
+}
