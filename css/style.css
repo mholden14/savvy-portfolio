@@ -1,33 +1,66 @@
 /* class = .name, ID = #name, element = element*/
-
 #header {
     background-color: blueviolet;
 }
-#navigation 
+
+img {
+    width: 100%;
+}
+div.hotpink{
+    color: hotpink}
+
+    #navigation 
 {margin: 10px;
 padding: 10px;
 background-color: rgb(255, 83, 109)
 
 }
-#navigation > ul{
+
+
+    #navigation > ul{
 margin: 0;   
     list-style: none;
-
 }
 
 #navigation> ul >li {
     max-resolution: 10px;
     display: inline;
 }
-
-#header {
+    #header {
     padding: 10px;
-    background-color: lightblue;
-
+    background-color: lightblue;}
+#content p+ul{
+    background-color: hotpink
 }
-
 #content {
     margin: 10px;
     padding: 10px; 
     background-color: aquamarine;
+}
+#footer{ padding: 10px;
+background-color: lightgreen
+}
+
+#codeperson{
+    color: red
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 750px;
+widows: 100%;
+}
+ #content p + ul {
+     background-color: hotpink;
+ }
+ #content li {
+     background-color: chartreuse;
+ }
+ #content li:first-child {
+     backgroundgation-color: aqua;
+    }
+#navigation{
+    position: fixed;
+    background-color: blue;
+    width: 100vw;
 }
