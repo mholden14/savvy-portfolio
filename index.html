@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id= "navigation">
-        <ul>
-            <li>
-                <a href="/blog">Blog</a>
-            </li>
+    <div id="navigation">
+        <ul class= "container">
+            
+            <li><a href="/blog">Blog</page>
             <li>
                 <a href="project">Project</a>
+                    <ul class="dropdown">
+                        <li>First</li>
+                        <li>Second</li>
+                        <li>Third</li>
+                    </ul>
             </li>
-        </ul>
     </div>
-    <div id="header">
+    <div id="header" class="hotpink">
         <div class="container">
+            <h1 class="empinkify">Menishia Holden's Savvy Coders Portfolio</h1> 
             <img src="https://a3-images.myspacecdn.com/images03/3/917d65b23b1b41cbaa4239b3bb6b7559/600x600.jpg" alt="">    
-            <h1>Menishia Holden's Savvy Coders Portfolio</h1>
+            
         
         </div>
             
@@ -31,10 +35,7 @@
     <p>
         
     </p>
-    <div id="content">
-        Hi My name is Menishia Holden and I am taking this class in order for me to gain new skills
-        in technology. I love technology and how innovative it is. Its is something that is forever changing and growing.
-        I love that it gives me an oppurtunity to use my immagination
+    
     </div>
     <div id="footer">
         Contact Information
@@ -42,6 +43,54 @@
         3145561387
     </div>
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var title=document.querySelector('h1');
+    var originalText=title.textContent;
+    
+    var greetuser = function(){
+        var userName = prompt("What is your name?");
+            
+        if(userName){
+            greeting.innerHTML ="<div>h3>Welcome to my world,</h3><h4>";
+            }
+        if(userName !== '') {
+            alert('Hello' + userName);
+            title.textContent = 'Hello'+ userName;
+        } 
+        else {
+            greetuser();
+        }
+    }
+      
+
+        greetuser();
+</script>
+</body> 
 </html>
 
 
